@@ -1,0 +1,34 @@
+
+.underline {
+    text-decoration: none; 
+    position: relative; 
+  
+    text-align: center;
+    
+  }   
+.underline:after {
+    content: '';
+    position: absolute;
+  
+    height: 2px;
+
+    margin: 0 auto;
+    top: 14px;
+    left: 0;
+  right: -5px;
+    width: 4%;
+    background: rgb(7, 189, 7);
+}
+.underline::before {
+    content: '';
+    position: absolute;
+  
+    height: 2px;
+
+    margin: 0 auto;
+    top: 14px;
+    left: 0;
+  right: -5px;
+    width: 6%;
+    background: rgb(226, 37, 12);
+}
